@@ -1,0 +1,115 @@
+\contentsline {chapter}{\numberline {1}Introduction}{4}{}%
+\contentsline {chapter}{\numberline {2}State Of The Art}{6}{}%
+\contentsline {section}{\numberline {2.1}Current Advances in Photovoltaic Panel Technology}{7}{}%
+\contentsline {subsection}{\numberline {2.1.1}Global State of the Art in Photovoltaic Systems}{7}{}%
+\contentsline {subsection}{\numberline {2.1.2}Recent Development on Photovoltaic Parameters Estimation: Total Least Squares Approach and Metaheuristic Algorithms}{8}{}%
+\contentsline {subsection}{\numberline {2.1.3}Photovoltaic Panel Characterization and Sensitivity Analysis}{8}{}%
+\contentsline {subsection}{\numberline {2.1.4}Sensitivity Analysis of a New Approach to Photovoltaic Parameters Extraction based on the Total Least Squares Method}{9}{}%
+\contentsline {subsection}{\numberline {2.1.5}Advancements in Photovoltaic Technology through Machine Learning}{9}{}%
+\contentsline {section}{\numberline {2.2}Modelization and simulation of photovoltaic panel}{10}{}%
+\contentsline {subsection}{\numberline {2.2.1}Solar Energy}{10}{}%
+\contentsline {subsection}{\numberline {2.2.2}Semiconductors}{11}{}%
+\contentsline {subsection}{\numberline {2.2.3}Silicon Doping}{13}{}%
+\contentsline {subsection}{\numberline {2.2.4}p-n Junction}{13}{}%
+\contentsline {subsection}{\numberline {2.2.5}Photovoltaic Effect}{15}{}%
+\contentsline {subsection}{\numberline {2.2.6}Photovoltaic Cell}{16}{}%
+\contentsline {subsection}{\numberline {2.2.7}PV Cell Modelization}{16}{}%
+\contentsline {subsection}{\numberline {2.2.8}The Newton Raphson Method }{18}{}%
+\contentsline {subsection}{\numberline {2.2.9}Theoretical Simulation}{19}{}%
+\contentsline {subsection}{\numberline {2.2.10}Simulation With Noise}{21}{}%
+\contentsline {subsection}{\numberline {2.2.11}Analog To Digital Converter}{22}{}%
+\contentsline {section}{\numberline {2.3}Analysis of I-V and P-V characteristics}{23}{}%
+\contentsline {subsection}{\numberline {2.3.1}Effect of Solar Radiation Variation}{23}{}%
+\contentsline {subsection}{\numberline {2.3.2}Effect of Cell Temperature Variation}{24}{}%
+\contentsline {subsection}{\numberline {2.3.3}Effect of Shunt Resistance Variation}{25}{}%
+\contentsline {subsection}{\numberline {2.3.4}Effect of Diode Reverse Saturation Current Variation}{25}{}%
+\contentsline {section}{\numberline {2.4}Five Parameters Model}{26}{}%
+\contentsline {section}{\numberline {2.5}Seven Parameters Model}{27}{}%
+\contentsline {section}{\numberline {2.6}Dependency on external and internal parameters}{29}{}%
+\contentsline {subsection}{\numberline {2.6.1}Internal parameters}{29}{}%
+\contentsline {subsubsection}{Photocurrent}{29}{}%
+\contentsline {subsubsection}{Internal cell temperature}{29}{}%
+\contentsline {subsubsection}{Fill factor}{30}{}%
+\contentsline {subsubsection}{Diode ideality factor}{30}{}%
+\contentsline {subsubsection}{Diode reverse saturation current}{30}{}%
+\contentsline {subsubsection}{Series resistance}{31}{}%
+\contentsline {subsubsection}{Shunt resistance}{31}{}%
+\contentsline {subsection}{\numberline {2.6.2}external parameters}{32}{}%
+\contentsline {subsubsection}{Environmental Parameters}{32}{}%
+\contentsline {subsubsection}{Shadow of Obstacle on PV Panel}{32}{}%
+\contentsline {section}{\numberline {2.7}Generation of measurements database}{33}{}%
+\contentsline {chapter}{\numberline {3}Embedded system}{36}{}%
+\contentsline {section}{\numberline {3.1}Literature Review of Supporting Techniques}{37}{}%
+\contentsline {section}{\numberline {3.2}Configuration}{37}{}%
+\contentsline {subsection}{\numberline {3.2.1}Hardware requirements}{37}{}%
+\contentsline {subsection}{\numberline {3.2.2}Software requirements}{40}{}%
+\contentsline {section}{\numberline {3.3}Programming}{41}{}%
+\contentsline {subsection}{\numberline {3.3.1}Software requirements}{41}{}%
+\contentsline {subsection}{\numberline {3.3.2}Quectel L86 GPS Module Programming}{42}{}%
+\contentsline {subsubsection}{Code Explanation}{42}{}%
+\contentsline {subsubsection}{Connection with ESP32}{42}{}%
+\contentsline {subsection}{\numberline {3.3.3}AM2301B Module Programming}{44}{}%
+\contentsline {subsubsection}{Code Explanation}{44}{}%
+\contentsline {subsubsection}{Connection with ESP32}{44}{}%
+\contentsline {subsection}{\numberline {3.3.4}BGT-FS1}{44}{}%
+\contentsline {subsubsection}{Code Explanation}{44}{}%
+\contentsline {subsubsection}{Connection with ESP32}{44}{}%
+\contentsline {section}{\numberline {3.4}Data formatting and storage}{45}{}%
+\contentsline {chapter}{\numberline {4}Machine learning system}{47}{}%
+\contentsline {section}{\numberline {4.1}Similar Work Review}{48}{}%
+\contentsline {section}{\numberline {4.2}Data Exploration}{48}{}%
+\contentsline {subsection}{\numberline {4.2.1}Mean, Standard Deviation and Quartiles}{49}{}%
+\contentsline {subsubsection}{Mean}{49}{}%
+\contentsline {subsubsection}{Standard Deviation}{50}{}%
+\contentsline {subsubsection}{Quartiles}{50}{}%
+\contentsline {subsection}{\numberline {4.2.2}Data Distribution}{52}{}%
+\contentsline {subsection}{\numberline {4.2.3}Correlation between the columns}{54}{}%
+\contentsline {section}{\numberline {4.3}Data Pre-processing}{58}{}%
+\contentsline {subsection}{\numberline {4.3.1}Outliers}{58}{}%
+\contentsline {subsection}{\numberline {4.3.2}Data Encoding}{63}{}%
+\contentsline {subsubsection}{Cyclical Encoding}{63}{}%
+\contentsline {subsubsection}{Pipeline}{67}{}%
+\contentsline {section}{\numberline {4.4}Model Creation and Implementation}{67}{}%
+\contentsline {subsection}{\numberline {4.4.1}Model Selection}{67}{}%
+\contentsline {subsubsection}{Linear Models}{67}{}%
+\contentsline {subsubsection}{Non-Linear Models}{68}{}%
+\contentsline {subsubsection}{Neural Network}{68}{}%
+\contentsline {subsubsection}{Stacking Regressor}{69}{}%
+\contentsline {subsection}{\numberline {4.4.2}Model Evaluation}{69}{}%
+\contentsline {subsubsection}{Cross Validation}{69}{}%
+\contentsline {subsubsection}{Metrics}{69}{}%
+\contentsline {section}{\numberline {4.5}Results}{69}{}%
+\contentsline {subsection}{\numberline {4.5.1}Linear Models}{69}{}%
+\contentsline {subsubsection}{Linear Regression}{69}{}%
+\contentsline {subsubsection}{Ridge Regression}{70}{}%
+\contentsline {subsubsection}{Lasso Regression}{70}{}%
+\contentsline {subsubsection}{Elastic Net}{70}{}%
+\contentsline {subsection}{\numberline {4.5.2}Non-Linear Models}{71}{}%
+\contentsline {subsubsection}{Support Vector Machine for Regression}{71}{}%
+\contentsline {subsubsection}{K-Nearest Neighbors for Regression}{71}{}%
+\contentsline {subsection}{\numberline {4.5.3}Neural Network}{71}{}%
+\contentsline {subsection}{\numberline {4.5.4}Stacking Regressor}{72}{}%
+\contentsline {subsection}{\numberline {4.5.5}Hyperparameter Tuning}{73}{}%
+\contentsline {subsubsection}{Support Vector Machine for Regression}{73}{}%
+\contentsline {subsubsection}{K-Nearest Neighbors for Regression}{74}{}%
+\contentsline {subsubsection}{Linear Regression}{75}{}%
+\contentsline {subsubsection}{Ridge Regression}{75}{}%
+\contentsline {subsubsection}{Lasso Regression}{76}{}%
+\contentsline {subsubsection}{Elastic Net Regression}{77}{}%
+\contentsline {subsubsection}{Neural Network}{77}{}%
+\contentsline {subsubsection}{Stacking Regressor}{78}{}%
+\contentsline {section}{\numberline {4.6}Model Training}{79}{}%
+\contentsline {subsection}{\numberline {4.6.1}Training Data}{79}{}%
+\contentsline {chapter}{\numberline {5}Future Work}{80}{}%
+\contentsline {section}{\numberline {5.1}Generation And Measurement Of Database}{81}{}%
+\contentsline {section}{\numberline {5.2}Measurement System}{82}{}%
+\contentsline {section}{\numberline {5.3}Machine Learning Algorithm}{83}{}%
+\contentsline {subsection}{\numberline {5.3.1}Feature Engineering}{83}{}%
+\contentsline {subsection}{\numberline {5.3.2}Model Creation}{83}{}%
+\contentsline {subsection}{\numberline {5.3.3}Models Ensembling}{84}{}%
+\contentsline {subsubsection}{Weighted Ensembling}{84}{}%
+\contentsline {subsubsection}{Optimization}{84}{}%
+\contentsline {subsubsection}{Using Constraint Programming For Optimization}{84}{}%
+\contentsline {section}{\numberline {5.4}Training A Model For Each Group, Then A Model for All}{85}{}%
+\contentsline {section}{\numberline {5.5}Government Policies}{85}{}%
+\contentsline {chapter}{\numberline {6}Conclusion}{87}{}%
